@@ -14,7 +14,8 @@ public class PluginManager {
     }
 
     public void executePlugins() {
-        // Added a comment in your branch
+        // Added a comment in your master
+    	//for conflicts i changed
         // This is a conflicting change in your branch
         System.out.println("Executing plugins in your branch");
 
