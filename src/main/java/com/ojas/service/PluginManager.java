@@ -1,5 +1,4 @@
 package com.ojas.service;
-
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -13,13 +12,14 @@ public class PluginManager {
     public PluginManager(List<Plugin> plugins) {
         this.plugins = plugins;
     }
-//sai
-//    malvi
-//    subbarao
+
     public void executePlugins() {
+        // Added a comment in your branch
+        // This is a conflicting change in your branch
+        System.out.println("Executing plugins in your branch");
+
         for (Plugin plugin : plugins) {
             plugin.execute();
         }
     }
 }
-
