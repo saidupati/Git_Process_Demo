@@ -13,7 +13,7 @@ public class PluginManager {
     public PluginManager(List<Plugin> plugins) {
         this.plugins = plugins;
     }
-
+//executeplugins
     public void executePlugins() {
         for (Plugin plugin : plugins) {
             plugin.execute();
