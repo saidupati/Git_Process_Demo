@@ -18,8 +18,8 @@ public class PluginManager {
     	//for conflicts i changed
         // Added a comment in your saiprasanna
     	//sai
-    	//prasanna
-        // This is a conflicting change in your branch
+    	//prasann        // This is a conflicting change in your branch
+    	System.out.println("added new line ");
         System.out.println("Executing plugins in your branch");
 
         for (Plugin plugin : plugins) {
